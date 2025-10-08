@@ -19,7 +19,7 @@
 
 <p align="center">
   🧾 <b>SQL Analysis:</b>
-  <a href="NetflixProj.sql" target="_blank">
+  <a href="https://github.com/HeyChamp29/Netflix-Shows-and-Movies-SQL/blob/main/NetflixProj.sql" target="_blank">
     View SQL Script
   </a>
 </p>
