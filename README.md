@@ -70,7 +70,7 @@ SELECT * FROM TOP10_MOVIES;
     <b>Result:</b>
     <br><br>
     <p align="center">
-      <img src="https://github.com/yourusername/Netflix-Shows-and-Movies-SQL/blob/main/images/top10_movies_result.png" width="700">
+      <img src="https://github.com/HeyChamp29/Netflix-Shows-and-Movies-SQL/blob/main/Question1.png" width="700">
     </p>
   </li>
 </ul>
