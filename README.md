@@ -197,7 +197,7 @@ SELECT * FROM DECADE_WISE_SELECTION;
     <b>Result:</b>
     <br><br>
     <p align="center">
-      <img src="https://github.com/yourusername/Netflix-Shows-and-Movies-SQL/blob/main/images/decade_wise_selection.png" width="700">
+      <img src="https://github.com/HeyChamp29/Netflix-Shows-and-Movies-SQL/blob/main/Question5.png" width="700">
     </p>
   </li>
 </ul>
