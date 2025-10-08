@@ -167,10 +167,12 @@ SELECT * FROM BOTTOM10_SHOWS;
     <b>Result:</b>
     <br><br>
     <p align="center">
-      <img src="https://github.com/yourusername/Netflix-Shows-and-Movies-SQL/blob/main/images/bottom10_shows_result.png" width="700">
+      <img src="https://github.com/HeyChamp29/Netflix-Shows-and-Movies-SQL/blob/main/Question4.png" width="700">
     </p>
   </li>
 </ul>
+
+<p>The IMDb score serves as a trusted benchmark for gauging the popularity, impact, and overall quality of movies and shows. The top 10 titles in this analysis reflect content that resonated strongly with audiences — receiving widespread praise for storytelling, performances, and production value. These high-performing titles represent the kind of content that keeps viewers engaged and enhances Netflix’s reputation for premium entertainment. Conversely, the bottom 10 titles reveal the less successful side of the spectrum. Their lower IMDb scores suggest weaker audience reception, which could be attributed to shortcomings in direction, narrative strength, or viewer relatability. Analyzing both extremes allows for a balanced understanding of audience sentiment. It not only identifies the standout titles that drive engagement but also highlights areas where Netflix can refine its content strategy — such as improving curation, promoting diverse genres, or re-evaluating underperforming productions. Ultimately, this comparison provides a meaningful glimpse into what viewers truly value and how their preferences shape the success of Netflix’s catalog.</p>
 
 
 
