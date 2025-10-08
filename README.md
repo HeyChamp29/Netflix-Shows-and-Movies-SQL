@@ -108,6 +108,70 @@ SELECT * FROM TOP10_SHOWS;
   </li>
 </ul>
 
+<h3>🎞️ Bottom 10 Movies</h3>
+
+<ul>
+  <li>
+    <b>SQL Query:</b>
+    <pre><code>
+CREATE VIEW BOTTOM10_MOVIES AS
+SELECT 
+  TITLE, 
+  TYPE, 
+  IMDB_SCORE
+FROM netflix_titles
+WHERE TYPE = 'MOVIE' 
+  AND IMDB_SCORE IS NOT NULL
+ORDER BY IMDB_SCORE ASC
+LIMIT 10;
+
+SELECT * FROM BOTTOM10_MOVIES;
+    </code></pre>
+  </li>
+
+  <li>
+    <b>Result:</b>
+    <br><br>
+    <p align="center">
+      <img src="https://github.com/yourusername/Netflix-Shows-and-Movies-SQL/blob/main/images/bottom10_movies_result.png" width="700">
+    </p>
+  </li>
+</ul>
+
+<br>
+
+<h3>📉 Bottom 10 Shows</h3>
+
+<ul>
+  <li>
+    <b>SQL Query:</b>
+    <pre><code>
+CREATE VIEW BOTTOM10_SHOWS AS 
+SELECT 
+  TITLE,
+  TYPE,
+  DESCRIPTION,
+  RELEASE_YEAR,
+  IMDB_SCORE
+FROM netflix_titles
+WHERE TYPE = 'SHOW' 
+  AND IMDB_SCORE IS NOT NULL
+ORDER BY IMDB_SCORE ASC
+LIMIT 10;
+
+SELECT * FROM BOTTOM10_SHOWS;
+    </code></pre>
+  </li>
+
+  <li>
+    <b>Result:</b>
+    <br><br>
+    <p align="center">
+      <img src="https://github.com/yourusername/Netflix-Shows-and-Movies-SQL/blob/main/images/bottom10_shows_result.png" width="700">
+    </p>
+  </li>
+</ul>
+
 
 
 
