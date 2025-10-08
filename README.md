@@ -175,5 +175,42 @@ SELECT * FROM BOTTOM10_SHOWS;
 <p>The IMDb score serves as a trusted benchmark for gauging the popularity, impact, and overall quality of movies and shows. The top 10 titles in this analysis reflect content that resonated strongly with audiences — receiving widespread praise for storytelling, performances, and production value. These high-performing titles represent the kind of content that keeps viewers engaged and enhances Netflix’s reputation for premium entertainment. Conversely, the bottom 10 titles reveal the less successful side of the spectrum. Their lower IMDb scores suggest weaker audience reception, which could be attributed to shortcomings in direction, narrative strength, or viewer relatability. Analyzing both extremes allows for a balanced understanding of audience sentiment. It not only identifies the standout titles that drive engagement but also highlights areas where Netflix can refine its content strategy — such as improving curation, promoting diverse genres, or re-evaluating underperforming productions. Ultimately, this comparison provides a meaningful glimpse into what viewers truly value and how their preferences shape the success of Netflix’s catalog.</p>
 
 
+<h2>📅 2. How Many Movies and Shows Fall in Each Decade in Netflix's Library?</h2>
+
+<ul>
+  <li>
+    <b>SQL Query:</b>
+    <pre><code>
+CREATE VIEW DECADE_WISE_SELECTION AS
+SELECT 
+  CONCAT(FLOOR(release_year/10)*10, 's') AS Decade,
+  COUNT(*) AS movies_shows_count
+FROM netflix_titles
+GROUP BY CONCAT(FLOOR(release_year/10)*10, 's')
+ORDER BY Decade;
+
+SELECT * FROM DECADE_WISE_SELECTION;
+    </code></pre>
+  </li>
+
+  <li>
+    <b>Result:</b>
+    <br><br>
+    <p align="center">
+      <img src="https://github.com/yourusername/Netflix-Shows-and-Movies-SQL/blob/main/images/decade_wise_selection.png" width="700">
+    </p>
+  </li>
+</ul>
+
+<p>
+  The decade-wise breakdown provides an overview of how Netflix’s library has evolved through time. 
+  The data reveals that the majority of content comes from the 2010s and 2020s, reflecting Netflix’s 
+  focus on acquiring and producing newer titles to match current audience interests. 
+  Older decades, while contributing fewer titles, represent classic additions that diversify the platform’s offerings. 
+  This distribution emphasizes Netflix’s strategic balance between modern content creation and maintaining a 
+  nostalgic connection through select older releases.
+</p>
+
+
 
 
