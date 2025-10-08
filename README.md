@@ -19,7 +19,7 @@
 
 <p align="center">
   🧾 <b>SQL Analysis:</b>
-  <a href="Netflix_SQL_Analysis.sql" target="_blank">
+  <a href="Netflix_Project.sql" target="_blank">
     View SQL Script
   </a>
 </p>
