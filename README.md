@@ -211,6 +211,11 @@ SELECT * FROM DECADE_WISE_SELECTION;
   nostalgic connection through select older releases.
 </p>
 
+<h2>🔞 3. How Did Age-Certifications Impact the Dataset?</h2> <ul> <li> <b>SQL Query:</b> <pre><code> CREATE VIEW AGE_CERTIFICATION_IMPACT AS SELECT DISTINCT age_certification, ROUND(AVG(imdb_score), 2) AS imdb_score, ROUND(AVG(tmdb_score), 2) AS tmdb_score FROM netflix_titles GROUP BY age_certification ORDER BY imdb_score DESC;
+SELECT * FROM AGE_CERTIFICATION_IMPACT;
+</code></pre>
+</li> <li> <b>Result:</b> <br><br> <p align="center"> <img src="https://github.com/HeyChamp29/Netflix-Shows-and-Movies-SQL/blob/main/Question6.png" width="700"> </p> </li> </ul> <p> Age certifications are a crucial aspect of content classification, designed to guide viewers on age-appropriate content and help platforms like Netflix manage audience segmentation effectively. This analysis explores how different age-certification categories correlate with audience ratings, using both IMDb and TMDB scores as indicators of content reception. </p> <p> From the results, we observe that titles rated for more mature audiences (such as <code>R</code> or <code>TV-MA</code>) tend to score higher on average than those intended for general or younger audiences (like <code>PG</code> or <code>TV-Y</code>). This trend suggests that mature content may offer more complex narratives, deeper character development, or edgier themes that resonate strongly with audiences and critics alike. </p> <p> Conversely, content designed for children or family viewing, while important for platform diversity, tends to receive slightly lower ratings—possibly due to simpler plots or niche appeal. These insights help Netflix understand the performance of content across different viewer age groups and can inform decisions about where to invest in original programming, how to optimize content recommendations, and how to balance offerings for various audience segments. </p>
+
 
 
 
