@@ -46,5 +46,68 @@
 
 <h3>🎥 Top 10 Movies</h3>
 
+<h3>🎥 Top 10 Movies</h3>
+
+<ul>
+  <li>
+    <b>SQL Query:</b>
+    <pre><code>
+CREATE VIEW TOP10_MOVIES AS 
+SELECT 
+  TITLE,
+  TYPE,
+  IMDB_SCORE
+FROM netflix_titles
+WHERE TYPE = 'MOVIE'
+ORDER BY IMDB_SCORE DESC
+LIMIT 10;
+
+SELECT * FROM TOP10_MOVIES;
+    </code></pre>
+  </li>
+
+  <li>
+    <b>Result:</b>
+    <br><br>
+    <p align="center">
+      <img src="https://github.com/yourusername/Netflix-Shows-and-Movies-SQL/blob/main/images/top10_movies_result.png" width="700">
+    </p>
+  </li>
+</ul>
+
+<br>
+
+<h3>📺 Top 10 Shows</h3>
+
+<ul>
+  <li>
+    <b>SQL Query:</b>
+    <pre><code>
+CREATE VIEW TOP10_SHOWS AS 
+SELECT 
+  TITLE,
+  TYPE,
+  DESCRIPTION,
+  RELEASE_YEAR,
+  IMDB_SCORE
+FROM netflix_titles
+WHERE TYPE = 'SHOW'
+ORDER BY IMDB_SCORE DESC
+LIMIT 10;
+
+SELECT * FROM TOP10_SHOWS;
+    </code></pre>
+  </li>
+
+  <li>
+    <b>Result:</b>
+    <br><br>
+    <p align="center">
+      <img src="https://github.com/yourusername/Netflix-Shows-and-Movies-SQL/blob/main/images/top10_shows_result.png" width="700">
+    </p>
+  </li>
+</ul>
+
+
 
 
