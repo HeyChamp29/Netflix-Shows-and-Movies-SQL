@@ -24,6 +24,13 @@
   </a>
 </p>
 
+<p align="center">
+  📊 <b>Power BI Dashboard:</b>
+  <a href="https://github.com/HeyChamp29/Netflix-Shows-and-Movies-SQL/blob/main/NetflixDashboard(PowerBi).png" target="_blank">
+    View Dashboard
+  </a>
+</p>
+
 <br>
 
 <div align="center" style="max-width:800px;">
