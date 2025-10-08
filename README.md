@@ -103,7 +103,7 @@ SELECT * FROM TOP10_SHOWS;
     <b>Result:</b>
     <br><br>
     <p align="center">
-      <img src="https://github.com/yourusername/Netflix-Shows-and-Movies-SQL/blob/main/images/top10_shows_result.png" width="700">
+      <img src="https://github.com/HeyChamp29/Netflix-Shows-and-Movies-SQL/blob/main/Question2.png" width="700">
     </p>
   </li>
 </ul>
